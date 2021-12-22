@@ -1,0 +1,35 @@
+
+            /* así se hacen comnments en CSS */
+            .encabezado {
+                font-size: 72px;/* medidas px, %, em, rem */
+                color: darkorchid;
+                background-color: rgb(214, 112, 29);/* también en hexadecimal */
+               /*  background-color: hsl(hue, saturation, lightness); */
+               text-align: center;
+               text-transform: capitalize;
+            }
+
+            body{
+                background-color: rgb(200, 197, 197);
+            }
+
+
+            #texto{
+                color: blue;
+                background-color: red;
+                font-size: 24px;
+                font-style: italic;
+            }           
+.texto{
+    color: white;
+    background-color: black;
+}
+
+p{
+    color: white;
+    background-color: grey;
+}
+p{
+    color: yellow;
+    background-color: teal;
+}

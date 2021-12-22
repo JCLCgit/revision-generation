@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ejercicio-1.css">
+    <title>Formulario Avanzado</title>
+</head>
+<body>
+    <form class="caja1" action="">
+        <fieldset class="field1">
+            <legend>Datos del comprador</legend>
+            <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre completo">
+            </div>
+            <div class="correo">
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo" placeholder="ejemplo@um.es">
+            </div>
+            <div class="telefono">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Ej. +3204715526000">
+            </div>
+            <div class="pais">
+                <label for="pais">País</label>
+                <input type="text" name="pais" id="pais">
+            </div>
+           
+        </fieldset>
+    </form>
+    <form class="caja2" action="">
+        <fieldset class="field2">
+            <legend>Datos de tarjeta de crédito o débito</legend>
+            </div>
+            <div class="numero">
+                <label for="numero">Número</label>
+                <input type="number" name="numero" id="numero" placeholder="Ej. 3434-2323-4334-5454">
+            </div>
+            <div class="titular">
+                <label for="titular">Titular</label>
+                <input type="text" name="titular" id="titular" placeholder="Nombre que figura en la tarjeta">
+            </div>
+        </fieldset>
+    </form>
+    <div class="enviar">
+        <input type="button" id="enviar" value="Confirmar pedido">
+
+    </div>
+    
+</body>
+</html>

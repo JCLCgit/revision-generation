@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(35, 212, 243);
+}
+h1{
+    text-align: right;
+
+}
+.naranja{
+    color: orange;
+    
+}
+.ve{
+    color:green;
+    background-color: honeydew;
+}
+
+.pie{
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+}

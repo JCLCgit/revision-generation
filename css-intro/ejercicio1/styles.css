@@ -1,0 +1,31 @@
+body
+{
+    background-color: rgb(19, 156, 19);
+}
+h1{
+    color: black;
+    font-size: 38px;
+}
+.cursiva{
+    font-style: italic;
+    color: white;
+    font-size: 18px;
+    
+}
+.crema{
+    font-style: normal;
+    color: rgb(246, 214, 154);
+    font-size: 18px;
+   
+}
+.mostaza{
+    font-style: normal;
+    color: orange;
+    font-size: 18px;
+    
+}
+.salmon{
+    font-style: normal;
+    color: rgb(255, 106, 89);
+    font-size: 18px;
+}
