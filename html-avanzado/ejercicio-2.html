@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/ejercicio-2.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Ejercicio de Tablas</h1>
+    <!-- COLSPAN y ROWSPAN -->
+    <!-- COLSPAN se extiende por columnas, crece a la derecha -->
+    <!-- ROWSPAN se extiende por filas, crece hacia abajo -->
+    <table>
+        <thead>
+            <!-- TR CREA una FILA -->
+            <tr>
+                <th>Producto</th>
+                <th>Precio <span class="roja">Individual</span> </th>
+                <th>Cantidad</th>
+                <th>Precio Total</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola mundo</td>
+                <td><span class="cursiva">Gratis</span> </td>
+                <td>5</td>
+                <td>Gratis</td>
+                
+            </tr>
+            <tr>
+                <td>Perrito feliz</td>
+                <td class="cafe">$19.99</td>
+                <td class="cafe">2</td>
+                <td>$39.98</td>
+                <!-- <td>Saludo</td> -->
+            </tr>
+            <tr>
+                <td>Perrito <span class="negrita">Feliz</span>  muy feliz</td>
+                <td>$29.99</td>
+                <td>3</td>
+                <td>$89.9 <span class="fosfo">7</span></td>
+                <!-- <td>(40+10)</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td class="negro">Pie de tabla más grande</td>
+            <td class="verde">Total $49.99</td>
+            <td class="verde" >10</td>
+            <td class="verde">$129.95</td>
+        </tfoot>
+    </table>
+    <img src="hay-tabla.png" alt="TABLA" width="300" height="300">
+</body>
+</html>

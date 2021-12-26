@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/tablas.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!-- COLSPAN y ROWSPAN -->
+    <!-- COLSPAN se extiende por columnas, crece a la derecha -->
+    <!-- ROWSPAN se extiende por filas, crece hacia abajo -->
+    <table>
+        <thead>
+            <!-- TR CREA una FILA -->
+            <tr>
+                <th>Cabecera</th>
+                <th colspan="2">Cabecera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+                
+            </tr>
+            <tr>
+                <td>Hola</td>
+                <td>Adiós</td>
+                <!-- <td>Saludo</td> -->
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>400</td>
+                <!-- <td>(40+10)</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Pie de tabla</td>
+            <td>Pie de tabla</td>
+            <td>Pie de tabla3</td>
+        </tfoot>
+    </table>
+</body>
+</html>

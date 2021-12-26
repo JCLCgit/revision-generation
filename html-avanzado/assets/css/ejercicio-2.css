@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+table, tr, td, th{
+    border: 1px solid black;
+}
+.roja{
+    color: red;
+}
+.fosfo{
+    color: greenyellow ;
+    
+}
+.negro{
+    background-color: black;
+}
+
+.verde{
+    background-color: greenyellow;
+}
+
+.cafe{
+    background-color: rgb(214, 35, 35);
+}
+.negrita{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    /* margin-right: 80px;
+    margin-left: 80px; */
+}
+.cursiva{
+    font-style: italic;
+}

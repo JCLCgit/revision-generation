@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+h1{
+    text-align: center;
+    color:  blue ;
+    font-style: italic;
+}
+
+.caja{
+    width: 860px;
+    height: 250px;
+    border: solid black 1px;
+    
+    align-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+#nombre{
+    font-family: 'Pushster', cursive
+}
+.intro{
+font-weight: 900;
+}
+.intro2{
+    text-align: center;    
+    color: rgb(24, 116, 112);
+}

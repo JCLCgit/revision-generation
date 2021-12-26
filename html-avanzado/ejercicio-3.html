@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/ejercicio-3.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tabla  con celdas extendidas</h1>
+    <!-- COLSPAN y ROWSPAN -->
+    <!-- COLSPAN se extiende por columnas, crece a la derecha -->
+    <!-- ROWSPAN se extiende por filas, crece hacia abajo -->
+    <table>
+        <!-- <thead>
+            
+            <tr>
+                <th>alfa</th>
+                <th>bravo</th>
+                <th></th>
+                <th></th>
+                <th>charlie</th>
+            </tr>
+        </thead> -->
+        <tbody>
+            <tr>
+                <td colspan="3">alfa</td>
+                <!-- <td></td>
+                <td></td> -->
+                <td>bravo</td>
+                <td rowspan="2">charlie</td>
+            </tr>
+            <tr>
+                <td>delta</td>
+                <td>echo</td>
+                <td>foxtrot</td>
+                <td>golf</td>
+                
+                
+            </tr>
+            <tr>
+                <td>hotel</td>
+                <td colspan="3" rowspan="2" >india</td>
+                <!-- <td></td>
+                <td></td> -->
+                <td>juliet</td>
+                <!-- <td>Saludo</td> -->
+            </tr>
+            <tr>
+                <td>kilo</td>
+                <!-- <td></td>
+                <td></td>
+                <td></td> -->
+                <td>lima</td>
+                <!-- <td>(40+10)</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>mike</td>
+            <td>november</td>
+            <td>oscar</td>
+            <td>papa</td>
+            <td>quebec</td>
+        </tfoot>
+    </table>
+</body>
+</html>
