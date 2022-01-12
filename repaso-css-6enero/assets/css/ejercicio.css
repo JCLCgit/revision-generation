@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(202, 201, 201);
+    border-right: black solid 1px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    background-color: gray;
+    margin:20px 60px;
+    color: white;
+}
+p{
+    width: 650px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+/* img{
+    background-color: rgb(202, 201, 201);
+} */
+.rojo{
+    color: red;
+    font-style: italic;
+}
+.negro{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
