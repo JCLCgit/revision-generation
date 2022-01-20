@@ -1,24 +1,26 @@
-let precio=document.getElementById('precio');
-let cupon=document.getElementById('cupon');
-let respuesta=document.getElementById('respuesta');
-let descuento;
+
 function operar(){
+    let precio=parseInt(document.getElementById('precio').value);
+    let cupon=document.getElementById('cupon').value;
+    let respuesta=document.getElementById('respuesta');
+    let descuento;
     switch(cupon){
-        case 'bronce':
+        case "bronce":
             descuento=precio*0.95;
-            respuesta.textContent=`El precio original era  $ ${precio} y el precio con descuento aplicado es de ${descuento} `;
+            document.getElementById('respuesta').innerHTML=`El precio era $${precio} y el precio con descuento aplicado es $${descuento}`;
+            
         break;
         case 'plata':
             descuento=(precio*0.90);
-            console.log(respuesta.textContent=`El precio original era  $ ${precio} y el precio con descuento aplicado es de ${descuento} `);
+            respuesta.textContent=`El precio era $${precio} y el precio con descuento aplicado es $${descuento}`;
         break;
         case 'oro':
             descuento=precio*0.80;
-            respuesta.textContent=`El precio original era  $${precio} y el precio con descuento aplicado es de ${descuento} `;
+            respuesta.textContent=`El precio era $${precio} y el precio con descuento aplicado es $${descuento}`;
         break;
         case 'platino':
             descuento=precio*0.75;
-            respuesta.textContent=`El precio original era  $${precio} y el precio con descuento aplicado es de ${descuento} `;
+            respuesta.textContent=`El precio era $${precio} y el precio con descuento aplicado es $${descuento}`;
         break;
         default:
             respuesta.textContent=`Error`;
